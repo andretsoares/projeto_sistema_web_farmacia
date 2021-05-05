@@ -4,6 +4,12 @@
 
 
 
+function a(){
+
+    document.getElementById("cadastros").src = "icone-cadastros.png"
+
+}
+
 function mudarimagem_cadastros() {
     			
     		
@@ -29,7 +35,7 @@ function mudarimagem_cadastros() {
 
     }
 
-
+/*
     function mudarimagem_financeiro(){
 
     			document.getElementById("cadastros").src = "icone-cadastros.png"
@@ -1191,4 +1197,4 @@ function mudarimagem_cadastros() {
     }
 
 
-
+*/
