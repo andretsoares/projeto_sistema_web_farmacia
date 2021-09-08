@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8"/>
+  <title></title>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  <link rel="icon" href="favicon.ico" type="image" sizes="32x32">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> 
+	
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
+	 
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	
+  <link rel="stylesheet" type="text/css" href="estilo-switch.css"/> 
+
+  <!-- <link rel="stylesheet" type="text/css" href="_css/estilo5.css"/>  -->
+ 
+  <script src="java-switch.js"></script>
+	  
+    
+	  
+</head>
+                    
+<body>
+  
+  <!--
+	 <div class="flex-container flex-item-left flex-item-right">
+		  
+		  <input type="image" class="btn btn-outline-primary position" id="botaoSelecionado1" value="cadastros" onclick="selecionar('cadastros')" src="icone-cadastros.png">
+		  <input type="image" class="btn btn-outline-primary position" id="botaoSelecionado2" value="financeiro" onclick="selecionar('financeiro')" src="icone-financeiro.png">
+		  <input type="image" class="btn btn-outline-primary position" id="botaoSelecionado3" value="estoque" onclick="selecionar('estoque')" src="icone-estoque.png">
+		  <input type="image" class="btn btn-outline-primary position" id="botaoSelecionado4" value="graficos" onclick="selecionar('graficos')" src="icone-graficos.png">
+		  <input type="image" class="btn btn-outline-primary position" id="botaoSelecionado5" value="relatorios" onclick="selecionar('relatorios')" src="icone-relatorios.png">
+		  <input type="image" class="btn btn-outline-primary position" id="botaoSelecionado6" value="vendas" onclick="selecionar('vendas')" src="icone-vendas.png">
+		  <input type="image" class="btn btn-outline-primary position" id="botaoSelecionado7" value="configuracoes" onclick="selecionar('configuracoes')" src="icone-configuracoes.png">
+		  <input type="image" class="btn btn-outline-primary position" id="botaoSelecionado8" value="suporte" onclick="selecionar('suporte')" src="icone-suporte.png">
+		  <input type="image" class="btn btn-outline-primary position" id="botaoSelecionado9" value="ferramentas" onclick="selecionar('ferramentas')" src="icone-ferramentas.png">
+		  <input type="image" class="btn btn-outline-primary position" id="botaoSelecionado10" value="sair" onclick="selecionar('sair')" src="icone-sair.png">
+
+     </div> 
+     -->	  
+	  <!--
+      
+      <div class="container mt-3">
+ 
+  
+  
+          <input type="image" class="btn btn-outline-primary position" data-toggle="modal" data-target="#myModal" id="botaoSelecionado1" value="cadastros" onclick="selecionar('cadastros')" src="icone-cadastros.png">
+                   The Modal 
+                  <div class="modal fade" id="myModal">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                      
+                         Modal Header 
+                        <div class="modal-header">
+                          <h1 class="modal-title">Cadastros</h1>
+                          <button type="button" class="close" data-dismiss="modal">×</button>
+                        </div>
+                        
+                         Modal body 
+                        <div class="modal-body">
+                          <input type="image" class="btn btn-outline-primary position" id="botaoSelecionado2" value="financeiro" onclick="selecionar('financeiro')" src="icone-financeiro.png">
+                          <input type="image" class="btn btn-outline-primary position" id="botaoSelecionado3" value="estoque" onclick="selecionar('estoque')" src="icone-estoque.png">
+                          <input type="image" class="btn btn-outline-primary position" id="botaoSelecionado4" value="graficos" onclick="selecionar('graficos')" src="icone-graficos.png">
+                          <input type="image" class="btn btn-outline-primary position" id="botaoSelecionado6" value="vendas" onclick="selecionar('vendas')" src="icone-vendas.png">
+                          <input type="image" class="btn btn-outline-primary position" id="botaoSelecionado7" value="configuracoes" onclick="selecionar('configuracoes')" src="icone-configuracoes.png">
+                          <input type="image" class="btn btn-outline-primary position" id="botaoSelecionado8" value="suporte" onclick="selecionar('suporte')" src="icone-suporte.png">
+                        </div>
+                        
+                         Modal footer 
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                        </div>
+                        
+                      </div>
+                    </div>
+                  </div>
+  
+</div> -->
+
+<!--<div class="container mt-3">
+ 
+  
+  
+  <input type="image" class="btn btn-outline-primary position" data-toggle="modal" data-target="#myModal" id="botaoSelecionado1" value="cadastros" onclick="selecionar('cadastros')" src="icone-cadastros.png">
+           
+          <div class="modal fade" id="myModal">
+            <div class="modal-dialog">
+              <div class="modal-content">
+              
+                 
+                <div class="modal-header flex-container">
+                  <h1 class="modal-title">Cadastros</h1>
+                  
+                </div>
+                <button type="button" class="close" data-dismiss="modal">×</button>
+                 
+                <div class="modal-body flex-container flex-item-left flex-item-right">
+                  <input type="image" class="btn btn-outline-primary position" id="botaoSelecionado2" value="financeiro" onclick="selecionar('financeiro')" src="icone-financeiro.png">
+                  <input type="image" class="btn btn-outline-primary position" id="botaoSelecionado3" value="estoque" onclick="selecionar('estoque')" src="icone-estoque.png">
+                  <input type="image" class="btn btn-outline-primary position" id="botaoSelecionado4" value="graficos" onclick="selecionar('graficos')" src="icone-graficos.png">
+                  <input type="image" class="btn btn-outline-primary position" id="botaoSelecionado6" value="vendas" onclick="selecionar('vendas')" src="icone-vendas.png">
+                  <input type="image" class="btn btn-outline-primary position" id="botaoSelecionado7" value="configuracoes" onclick="selecionar('configuracoes')" src="icone-configuracoes.png">
+                  <input type="image" class="btn btn-outline-primary position" id="botaoSelecionado8" value="suporte" onclick="selecionar('suporte')" src="icone-suporte.png">
+                </div>
+                
+                 
+                
+                
+              </div>
+            </div>
+          </div> -->
+
+			<div class="flex-container flex-item-left flex-item-right">
+			
+          <a href="#openModal">               
+            
+            <input type="image" data-toggle="modal" data-target="#myodal" id="botaoSelecionado1" value="cadastros" class="btn btn-default btn-secundary btn-lg " onclick="selecionar('cadastros')" src="icone-cadastros.png">
+
+            </a>
+
+                  <div id="openModal" class="modalDialog"><h1 class="titulo_cadastro"><font color="#d9241c" face="georgia"><b>Cadastros</b></font></h1>
+
+                  <div id="divModal1" >
+
+                    <div class="divChildModal1">
+                    
+
+                    <input type="image" id="clientes" class="btn btn-default btn-secundary btn-lg dropdown-toggle btn-group buttonChildModal" onclick="" src="clientes.png">    
+                    
+                    <input type="image" id="vendedor" class="btn btn-default btn-secundary btn-lg dropdown-toggle btn-group buttonChildModal" onclick="" src="vendedor.png">
+
+                    
+                    <input type="image" id="transportadora" class="btn btn-default btn-secundary btn-lg dropdown-toggle btn-group buttonChildModal" onclick="" src="transportadora.png">
+
+                      
+                    
+                        
+                                      
+                    </div>
+
+
+                    <div class="div-teste-2" style="position: relative; width:650px; height:-200px; left:-14px; right:20px;">
+
+                    <input type="image" id="empresa" class="btn btn-default btn-secundary btn-lg dropdown-toggle btn-group buttonChildModal" onclick="" src="empresa.png">
+
+
+                    <input type="image" id="agenda" class="btn btn-default btn-secundary btn-lg dropdown-toggle btn-group buttonChildModal" onclick="" src="agenda.png">
+
+                    
+                    <input type="image" id="email" class="btn btn-default btn-secundary btn-lg dropdown-toggle btn-group buttonChildModal" onclick="" src="email_marketing.png">
+
+
+                    </div>
+
+
+
+                    <a href="#close" title="Close" class="close">X</a></div>
+
+                  </div> 
+                  
+                  <a href="#openModal-2">               
+            
+                    <input type="image" data-toggle="modal" data-target="#myodal" id="botaoSelecionado2" value="financeiro" class="btn btn-default btn-secundary btn-lg " onclick="selecionar('financeiro')" src="icone-financeiro.png">
+        
+                    </a>
+        
+                          <div id="openModal-2" class="modalDialog-2"><h1 class="titulo_financeiro"><font color="#d9241c" face="georgia"><b>Financeiro</b></font></h1>
+        
+                          <div id="divModal2" >
+        
+                            <div class="divChildModal1">
+                            
+        
+                            <input type="image" id="clientes" class="btn btn-default btn-secundary btn-lg dropdown-toggle btn-group buttonChildModal" onclick="" src="clientes.png">    
+                            
+                            <input type="image" id="vendedor" class="btn btn-default btn-secundary btn-lg dropdown-toggle btn-group buttonChildModal" onclick="" src="vendedor.png">
+        
+                            
+                            <input type="image" id="transportadora" class="btn btn-default btn-secundary btn-lg dropdown-toggle btn-group buttonChildModal" onclick="" src="transportadora.png">
+        
+                              
+                            
+                                
+                                              
+                            </div>
+        
+        
+                            <div class="divChildModal1" style="position: relative; width:650px; height:-200px; left:-14px; right:20px;">
+        
+                            <input type="image" id="empresa" class="btn btn-default btn-secundary btn-lg dropdown-toggle btn-group buttonChildModal" onclick="" src="empresa.png">
+        
+        
+                            <input type="image" id="agenda" class="btn btn-default btn-secundary btn-lg dropdown-toggle btn-group buttonChildModal" onclick="" src="agenda.png">
+        
+                            
+                            <input type="image" id="email" class="btn btn-default btn-secundary btn-lg dropdown-toggle btn-group buttonChildModal" onclick="" src="email_marketing.png">
+        
+        
+                            </div>
+        
+        
+        
+                            <a href="#close" title="Close" class="close">X</a></div>
+        
+                          </div> 
+
+
+                          <a href="#openModal-3">               
+            
+                            <input type="image" data-toggle="modal" data-target="#myodal" id="botaoSelecionado3" value="estoque" class="btn btn-default btn-secundary btn-lg " onclick="selecionar('estoque')" src="icone-estoque.png">
+                
+                            </a>
+                
+                                  <div id="openModal-3" class="modalDialog-3"><h1 class="titulo_estoque"><font color="#d9241c" face="georgia"><b>Estoque</b></font></h1>
+                
+                                  <div id="divModal3" >
+                
+                                    <div class="divChildModal1">
+                                    
+                
+                                    <input type="image" id="clientes" class="btn btn-default btn-secundary btn-lg dropdown-toggle btn-group buttonChildModal" onclick="" src="clientes.png">    
+                                    
+                                    <input type="image" id="vendedor" class="btn btn-default btn-secundary btn-lg dropdown-toggle btn-group buttonChildModal" onclick="" src="vendedor.png">
+                
+                                    
+                                    <input type="image" id="transportadora" class="btn btn-default btn-secundary btn-lg dropdown-toggle btn-group buttonChildModal" onclick="" src="transportadora.png">
+                
+                                      
+                                    
+                                        
+                                                      
+                                    </div>
+                
+                
+                                    <div class="divChildModal1" style="position: relative; width:650px; height:-200px; left:-14px; right:20px;">
+                
+                                    <input type="image" id="empresa" class="btn btn-default btn-secundary btn-lg dropdown-toggle btn-group buttonChildModal" onclick="" src="empresa.png">
+                
+                
+                                    <input type="image" id="agenda" class="btn btn-default btn-secundary btn-lg dropdown-toggle btn-group buttonChildModal" onclick="" src="agenda.png">
+                
+                                    
+                                    <input type="image" id="email" class="btn btn-default btn-secundary btn-lg dropdown-toggle btn-group buttonChildModal" onclick="" src="email_marketing.png">
+                
+                
+                                    </div>
+                
+                
+                
+                                    <a href="#close" title="Close" class="close">X</a></div>
+                
+                                  </div>         
+
+                                  
+
+
+<!--                                          <a href="#openModal-3">               
+            
+                                            <input type="image" data-toggle="modal" data-target="#myodal" id="botaoSelecionado2" value="financeiro" class="btn btn-default btn-secundary btn-lg " onclick="selecionar('financeiro')" src="icone-financeiro.png">
+                                
+                                            </a>
+                                
+                                                  <div id="openModal-3" class="modalDialog-3"><h1 class="titulo_financeiro"><font color="#d9241c" face="georgia"><b>Estoque</b></font></h1>
+                                
+                                                  <div id="divModal3" >
+                                
+                                                    <div class="divChildModal1">
+                                                    
+                                
+                                                    <input type="image" id="clientes" class="btn btn-default btn-secundary btn-lg dropdown-toggle btn-group buttonChildModal" onclick="" src="clientes.png">    
+                                                    
+                                                    <input type="image" id="vendedor" class="btn btn-default btn-secundary btn-lg dropdown-toggle btn-group buttonChildModal" onclick="" src="vendedor.png">
+                                
+                                                    
+                                                    <input type="image" id="transportadora" class="btn btn-default btn-secundary btn-lg dropdown-toggle btn-group buttonChildModal" onclick="" src="transportadora.png">
+                                
+                                                      
+                                                    
+                                                        
+                                                                      
+                                                    </div>
+                                
+                                
+                                                    <div class="divChildModal1" style="position: relative; width:650px; height:-200px; left:-14px; right:20px;">
+                                
+                                                    <input type="image" id="empresa" class="btn btn-default btn-secundary btn-lg dropdown-toggle btn-group buttonChildModal" onclick="" src="empresa.png">
+                                
+                                
+                                                    <input type="image" id="agenda" class="btn btn-default btn-secundary btn-lg dropdown-toggle btn-group buttonChildModal" onclick="" src="agenda.png">
+                                
+                                                    
+                                                    <input type="image" id="email" class="btn btn-default btn-secundary btn-lg dropdown-toggle btn-group buttonChildModal" onclick="" src="email_marketing.png">
+                                
+                                
+                                                    </div>
+                                
+                                
+                                
+                                                    <a href="#close" title="Close" class="close">X</a></div>
+                                
+                                                  </div>    
+
+                                                  <a href="#openModal-3">               
+            
+                                                    <input type="image" data-toggle="modal" data-target="#myodal" id="botaoSelecionado2" value="financeiro" class="btn btn-default btn-secundary btn-lg " onclick="selecionar('financeiro')" src="icone-financeiro.png">
+                                        
+                                                    </a>
+                                        
+                                                          <div id="openModal-3" class="modalDialog-3"><h1 class="titulo_financeiro"><font color="#d9241c" face="georgia"><b>Estoque</b></font></h1>
+                                        
+                                                          <div id="divModal3" >
+                                        
+                                                            <div class="divChildModal1">
+                                                            
+                                        
+                                                            <input type="image" id="clientes" class="btn btn-default btn-secundary btn-lg dropdown-toggle btn-group buttonChildModal" onclick="" src="clientes.png">    
+                                                            
+                                                            <input type="image" id="vendedor" class="btn btn-default btn-secundary btn-lg dropdown-toggle btn-group buttonChildModal" onclick="" src="vendedor.png">
+                                        
+                                                            
+                                                            <input type="image" id="transportadora" class="btn btn-default btn-secundary btn-lg dropdown-toggle btn-group buttonChildModal" onclick="" src="transportadora.png">
+                                        
+                                                              
+                                                            
+                                                                
+                                                                              
+                                                            </div>
+                                        
+                                        
+                                                            <div class="divChildModal1" style="position: relative; width:650px; height:-200px; left:-14px; right:20px;">
+                                        
+                                                            <input type="image" id="empresa" class="btn btn-default btn-secundary btn-lg dropdown-toggle btn-group buttonChildModal" onclick="" src="empresa.png">
+                                        
+                                        
+                                                            <input type="image" id="agenda" class="btn btn-default btn-secundary btn-lg dropdown-toggle btn-group buttonChildModal" onclick="" src="agenda.png">
+                                        
+                                                            
+                                                            <input type="image" id="email" class="btn btn-default btn-secundary btn-lg dropdown-toggle btn-group buttonChildModal" onclick="" src="email_marketing.png">
+                                        
+                                        
+                                                            </div>
+                                        
+                                        
+                                        
+                                                            <a href="#close" title="Close" class="close">X</a></div>
+                                        
+                                                          </div>    
+
+                                                          <a href="#openModal-3">               
+            
+                                                            <input type="image" data-toggle="modal" data-target="#myodal" id="botaoSelecionado2" value="financeiro" class="btn btn-default btn-secundary btn-lg " onclick="selecionar('financeiro')" src="icone-financeiro.png">
+                                                
+                                                            </a>
+                                                
+                                                                  <div id="openModal-3" class="modalDialog-3"><h1 class="titulo_financeiro"><font color="#d9241c" face="georgia"><b>Estoque</b></font></h1>
+                                                
+                                                                  <div id="divModal3" >
+                                                
+                                                                    <div class="divChildModal1">
+                                                                    
+                                                
+                                                                    <input type="image" id="clientes" class="btn btn-default btn-secundary btn-lg dropdown-toggle btn-group buttonChildModal" onclick="" src="clientes.png">    
+                                                                    
+                                                                    <input type="image" id="vendedor" class="btn btn-default btn-secundary btn-lg dropdown-toggle btn-group buttonChildModal" onclick="" src="vendedor.png">
+                                                
+                                                                    
+                                                                    <input type="image" id="transportadora" class="btn btn-default btn-secundary btn-lg dropdown-toggle btn-group buttonChildModal" onclick="" src="transportadora.png">
+                                                
+                                                                      
+                                                                    
+                                                                        
+                                                                                      
+                                                                    </div>
+                                                
+                                                
+                                                                    <div class="divChildModal1" style="position: relative; width:650px; height:-200px; left:-14px; right:20px;">
+                                                
+                                                                    <input type="image" id="empresa" class="btn btn-default btn-secundary btn-lg dropdown-toggle btn-group buttonChildModal" onclick="" src="empresa.png">
+                                                
+                                                
+                                                                    <input type="image" id="agenda" class="btn btn-default btn-secundary btn-lg dropdown-toggle btn-group buttonChildModal" onclick="" src="agenda.png">
+                                                
+                                                                    
+                                                                    <input type="image" id="email" class="btn btn-default btn-secundary btn-lg dropdown-toggle btn-group buttonChildModal" onclick="" src="email_marketing.png">
+                                                
+                                                
+                                                                    </div>
+                                                
+                                                
+                                                
+                                                                    <a href="#close" title="Close" class="close">X</a></div>
+                                                
+                                                                  </div>    
+
+
+                                                                  <a href="#openModal-3">               
+            
+                                                                    <input type="image" data-toggle="modal" data-target="#myodal" id="botaoSelecionado2" value="financeiro" class="btn btn-default btn-secundary btn-lg " onclick="selecionar('financeiro')" src="icone-financeiro.png">
+                                                        
+                                                                    </a>
+                                                        
+                                                                          <div id="openModal-3" class="modalDialog-3"><h1 class="titulo_financeiro"><font color="#d9241c" face="georgia"><b>Estoque</b></font></h1>
+                                                        
+                                                                          <div id="divModal3" >
+                                                        
+                                                                            <div class="divChildModal1">
+                                                                            
+                                                        
+                                                                            <input type="image" id="clientes" class="btn btn-default btn-secundary btn-lg dropdown-toggle btn-group buttonChildModal" onclick="" src="clientes.png">    
+                                                                            
+                                                                            <input type="image" id="vendedor" class="btn btn-default btn-secundary btn-lg dropdown-toggle btn-group buttonChildModal" onclick="" src="vendedor.png">
+                                                        
+                                                                            
+                                                                            <input type="image" id="transportadora" class="btn btn-default btn-secundary btn-lg dropdown-toggle btn-group buttonChildModal" onclick="" src="transportadora.png">
+                                                        
+                                                                              
+                                                                            
+                                                                                
+                                                                                              
+                                                                            </div>
+                                                        
+                                                        
+                                                                            <div class="divChildModal1" style="position: relative; width:650px; height:-200px; left:-14px; right:20px;">
+                                                        
+                                                                            <input type="image" id="empresa" class="btn btn-default btn-secundary btn-lg dropdown-toggle btn-group buttonChildModal" onclick="" src="empresa.png">
+                                                        
+                                                        
+                                                                            <input type="image" id="agenda" class="btn btn-default btn-secundary btn-lg dropdown-toggle btn-group buttonChildModal" onclick="" src="agenda.png">
+                                                        
+                                                                            
+                                                                            <input type="image" id="email" class="btn btn-default btn-secundary btn-lg dropdown-toggle btn-group buttonChildModal" onclick="" src="email_marketing.png">
+                                                        
+                                                        
+                                                                            </div>
+                                                        
+                                                        
+                                                        
+                                                                            <a href="#close" title="Close" class="close">X</a></div>
+                                                        
+                                                                          </div>    
+
+
+                                                                          <a href="#openModal-3">               
+            
+                                                                            <input type="image" data-toggle="modal" data-target="#myodal" id="botaoSelecionado2" value="financeiro" class="btn btn-default btn-secundary btn-lg " onclick="selecionar('financeiro')" src="icone-financeiro.png">
+                                                                
+                                                                            </a>
+                                                                
+                                                                                  <div id="openModal-3" class="modalDialog-3"><h1 class="titulo_financeiro"><font color="#d9241c" face="georgia"><b>Estoque</b></font></h1>
+                                                                
+                                                                                  <div id="divModal3" >
+                                                                
+                                                                                    <div class="divChildModal1">
+                                                                                    
+                                                                
+                                                                                    <input type="image" id="clientes" class="btn btn-default btn-secundary btn-lg dropdown-toggle btn-group buttonChildModal" onclick="" src="clientes.png">    
+                                                                                    
+                                                                                    <input type="image" id="vendedor" class="btn btn-default btn-secundary btn-lg dropdown-toggle btn-group buttonChildModal" onclick="" src="vendedor.png">
+                                                                
+                                                                                    
+                                                                                    <input type="image" id="transportadora" class="btn btn-default btn-secundary btn-lg dropdown-toggle btn-group buttonChildModal" onclick="" src="transportadora.png">
+                                                                
+                                                                                      
+                                                                                    
+                                                                                        
+                                                                                                      
+                                                                                    </div>
+                                                                
+                                                                
+                                                                                    <div class="divChildModal1" style="position: relative; width:650px; height:-200px; left:-14px; right:20px;">
+                                                                
+                                                                                    <input type="image" id="empresa" class="btn btn-default btn-secundary btn-lg dropdown-toggle btn-group buttonChildModal" onclick="" src="empresa.png">
+                                                                
+                                                                
+                                                                                    <input type="image" id="agenda" class="btn btn-default btn-secundary btn-lg dropdown-toggle btn-group buttonChildModal" onclick="" src="agenda.png">
+                                                                
+                                                                                    
+                                                                                    <input type="image" id="email" class="btn btn-default btn-secundary btn-lg dropdown-toggle btn-group buttonChildModal" onclick="" src="email_marketing.png">
+                                                                
+                                                                
+                                                                                    </div>
+                                                                
+                                                                
+                                                                
+                                                                                    <a href="#close" title="Close" class="close">X</a></div>
+                                                                
+                                                                                  </div>    
+
+                                                                                  <a href="#openModal-3">               
+            
+                                                                                    <input type="image" data-toggle="modal" data-target="#myodal" id="botaoSelecionado2" value="financeiro" class="btn btn-default btn-secundary btn-lg " onclick="selecionar('financeiro')" src="icone-financeiro.png">
+                                                                        
+                                                                                    </a>
+                                                                        
+                                                                                          <div id="openModal-3" class="modalDialog-3"><h1 class="titulo_financeiro"><font color="#d9241c" face="georgia"><b>Estoque</b></font></h1>
+                                                                        
+                                                                                          <div id="divModal3" >
+                                                                        
+                                                                                            <div class="divChildModal1">
+                                                                                            
+                                                                        
+                                                                                            <input type="image" id="clientes" class="btn btn-default btn-secundary btn-lg dropdown-toggle btn-group buttonChildModal" onclick="" src="clientes.png">    
+                                                                                            
+                                                                                            <input type="image" id="vendedor" class="btn btn-default btn-secundary btn-lg dropdown-toggle btn-group buttonChildModal" onclick="" src="vendedor.png">
+                                                                        
+                                                                                            
+                                                                                            <input type="image" id="transportadora" class="btn btn-default btn-secundary btn-lg dropdown-toggle btn-group buttonChildModal" onclick="" src="transportadora.png">
+                                                                        
+                                                                                              
+                                                                                            
+                                                                                                
+                                                                                                              
+                                                                                            </div>
+                                                                        
+                                                                        
+                                                                                            <div class="divChildModal1" style="position: relative; width:650px; height:-200px; left:-14px; right:20px;">
+                                                                        
+                                                                                            <input type="image" id="empresa" class="btn btn-default btn-secundary btn-lg dropdown-toggle btn-group buttonChildModal" onclick="" src="empresa.png">
+                                                                        
+                                                                        
+                                                                                            <input type="image" id="agenda" class="btn btn-default btn-secundary btn-lg dropdown-toggle btn-group buttonChildModal" onclick="" src="agenda.png">
+                                                                        
+                                                                                            
+                                                                                            <input type="image" id="email" class="btn btn-default btn-secundary btn-lg dropdown-toggle btn-group buttonChildModal" onclick="" src="email_marketing.png">
+                                                                        
+                                                                        
+                                                                                            </div>
+                                                                        
+                                                                        
+                                                                        
+                                                                                            <a href="#close" title="Close" class="close">X</a></div>
+                                                                        
+                                                                                          </div>    -->
+
+
+
+
+				</div>
+        
+        
+                         
+</body>
+
+</html>	

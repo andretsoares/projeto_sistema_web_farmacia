@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="favicon.ico" type="image" sizes="32x32">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<style>
+  
+  :root {
+
+    --color1: #f1f1f1;
+    --color2: #e3e3e3;
+    --color3: #78b5f8;
+    
+
+    --image1: url('icone-cadastros.png');
+    --image2: url('icone-financeiro.png');
+    --image3: url('icone-estoque.png');
+    --image4: url('icone-graficos.png');
+    --image5: url('icone-relatorios.png');
+    --image6: url('icone-vendas_caixa.png');
+    --image7: url('icone-configuracoes.png');
+    --image8: url('icone-suporte_ajuda.png');
+    --image9: url('icone-ferramentas.png');
+    --image10: url('icone-sair_minimizar.png');
+
+    --repeat: no-repeat;
+    --position1: center;
+    --position2:relative;
+    --top:70px;
+
+    --blue: #1e90ff;
+    --white: #ffffff;
+    --yellow: yellow; 
+    
+    --display1:flex;
+    --flex-direction1: row;
+    --flex-wrap1: wrap;
+    --justify-content1: center;
+
+    --width1: 100px;
+    --height1: 100px;
+    --margin1: 5px;
+    --text-align1: center;
+    --font-size1: 10px;    
+
+  }
+  
+  .flex-container {
+    
+    display: var(--display1);
+    background-color: var(--color1);
+    flex-direction: var(--flex-direction1);
+    flex-wrap: var(--flex-wrap1);
+    justify-content: var(--justify-content1);
+    
+  }
+ 
+  .flex-container > button {
+    background-color: var(--color2);
+    color: var(--color3);
+    width: var(--width1);
+    height: var(--height1);
+    margin: var(--margin1);
+    text-align: var(--text-align1);
+    font-size: var(--font-size1);    
+    
+  }
+ 
+ .position{
+
+    background-repeat: var(--repeat);
+    background-position: var(--position1);
+
+ }
+ 
+  .cadastros {
+
+    background-image: var(--image1);
+     
+ }
+ 
+ .financeiro {
+
+    background-image: var(--image2);
+
+}
+
+.estoque {
+
+    background-image: var(--image3);
+
+}
+
+.graficos {
+
+    background-image: var(--image4);
+
+}
+
+.relatorios {
+
+    background-image: var(--image5);
+
+}
+
+.vendas {
+
+    background-image: var(--image6);
+
+}
+
+.configuracoes {
+
+    background-image: var(--image7);
+
+}
+
+.suporte {
+
+    background-image: var(--image8);
+
+}
+
+.ferramentas {
+
+    background-image: var(--image9);
+
+
+}
+
+.sair {
+
+    background-image: var(--image10);
+
+}
+
+b{
+
+    position: var(--position2);
+    top: var(--top);
+  
+}
+
+body {
+	
+  background:var(--color2);
+
+}
+.btn-outline-primary{
+
+  border-color: var(--yellow);
+
+}
+
+</style>
+
+<script>
+ 
+
+
+</script>
+
+</head>
+<body>
+
+       <div class="flex-container flex-item-left flex-item-right">
+        
+       <button type="button" onclick="myFunction_set()" id="elemento" class="btn btn-outline-primary cadastros position" ><b class="b">Cadastros</b></button>
+          
+
+        <button type="button" class="btn btn-outline-primary financeiro position"><b>Financeiro</b></button>
+        <button type="button" class="btn btn-outline-primary estoque position"><b>Estoque</b></button>
+        <button type="button" class="btn btn-outline-primary graficos position"><b>Graficos</b></button>
+        <button type="button" class="btn btn-outline-primary relatorios position"><b>Relatórios</b></button>
+        <button type="button" class="btn btn-outline-primary vendas position"><b>Vendas/Caixa</b></button>
+        <button type="button" class="btn btn-outline-primary configuracoes position"><b>Configurações</b></button>
+        <button type="button" class="btn btn-outline-primary suporte position"><b>Suporte/Ajuda</b></button>
+        <button type="button" class="btn btn-outline-primary ferramentas position"><b>Ferramentas</b></button>
+        <button type="button" class="btn btn-outline-primary sair position"><b>Sair/Minimizar</b></button>
+      
+     
+      
+       
+    </div> 
+      
+
+      
+</body>
+</html>
