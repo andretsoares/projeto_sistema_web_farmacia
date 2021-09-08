@@ -27,7 +27,7 @@
     --repeat: no-repeat;
 
 
-    --text-align1: center;
+    
 
 
     --top1:70px;
@@ -71,6 +71,16 @@
     --left8: 30px;
     --left9: 650px;
     --left10: 470px;
+    --left11: 195px;
+    --left12:50px;
+    --left13:320px;
+    --left14:450px;
+    --left15:584px;
+    --left16:700px;
+    --left17:824px;
+    --left18:684px;
+    --left19:800px;
+    --left20:820px;
 
 
     --align-items1: middle;
@@ -181,8 +191,42 @@ body {
 #botaoSelecionado3{
   
   padding:var(--padding1);
-}      
+}     
 
+#botaoSelecionado4{
+  
+  padding:var(--padding1);
+}   
+
+#botaoSelecionado5{
+  
+  padding:var(--padding1);
+}   
+
+#botaoSelecionado6{
+  
+  padding:var(--padding1);
+} 
+
+#botaoSelecionado7{
+  
+  padding:var(--padding1);
+}   
+
+#botaoSelecionado8{
+  
+  padding:var(--padding1);
+}  
+
+#botaoSelecionado9{
+  
+  padding:var(--padding1);
+}   
+
+#botaoSelecionado10{
+  
+  padding:var(--padding1);
+}   
 
 .titulo_cadastro{
   
@@ -200,7 +244,7 @@ body {
   align-items:var(--align-items1);
   position:var(--position2);
   top:var(--top2);
-  left: var(--left6);
+  left: var(--left7);
 
 } 
 
@@ -209,7 +253,70 @@ body {
   align-items:var(--align-items1);
   position:var(--position2);
   top:var(--top2);
-  left: 600px;
+  left: var(--left7);
+
+} 
+
+.titulo_graficos{
+  
+  align-items:var(--align-items1);
+  position:var(--position2);
+  top:var(--top2);
+  left: var(--left7);
+
+} 
+
+.titulo_relatorios{
+  
+  align-items:var(--align-items1);
+  position:var(--position2);
+  top:var(--top2);
+  left: var(--left7);
+
+} 
+
+.titulo_vendas{
+  
+  align-items:var(--align-items1);
+  position:var(--position2);
+  top:var(--top2);
+  left: var(--left7);
+
+} 
+
+.titulo_configuracoes{
+  
+  align-items:var(--align-items1);
+  position:var(--position2);
+  top:var(--top2);
+  left: var(--left7);
+
+} 
+
+.titulo_suporte{
+  
+  align-items:var(--align-items1);
+  position:var(--position2);
+  top:var(--top2);
+  left: var(--left7);
+
+} 
+
+.titulo_ferramentas{
+  
+  align-items:var(--align-items1);
+  position:var(--position2);
+  top:var(--top2);
+  left: var(--left7);
+
+} 
+
+.titulo_sair{
+  
+  align-items:var(--align-items1);
+  position:var(--position2);
+  top:var(--top2);
+  left: var(--left7);
 
 } 
 
@@ -221,7 +328,7 @@ body {
   top: var(--top4);
   right: var(--right3);
   bottom: var(--bottom1);
-  left: var(--left8);
+  left: var(--left12);
   z-index: var(--z-index);
   opacity: var(--opacity1);
   -webkit-transition: var(--webkit-transition1);
@@ -298,7 +405,7 @@ body {
   top: var(--top4);
   right: var(--right3);
   bottom: var(--bottom1);
-  left: var(--left8);
+  left: var(--left11);
   z-index: var(--z-index);
   opacity: var(--opacity1);
   -webkit-transition: var(--webkit-transition1);
@@ -375,7 +482,7 @@ body {
   top: var(--top4);
   right: var(--right3);
   bottom: var(--bottom1);
-  left: var(--left9);
+  left: var(--left13);
   z-index: var(--z-index);
   opacity: var(--opacity1);
   -webkit-transition: var(--webkit-transition1);
@@ -443,7 +550,632 @@ body {
 
 .close:hover { background: var(--background5); }
 
+
+.modalDialog-4 {
+
+
+  position: var(--position3);
+  font-family: var(--font-family1);
+  top: var(--top4);
+  right: var(--right3);
+  bottom: var(--bottom1);
+  left: var(--left14);
+  z-index: var(--z-index);
+  opacity: var(--opacity1);
+  -webkit-transition: var(--webkit-transition1);
+  -moz-transition: var(--moz-transition1);
+  transition: var(--transition1);
+  pointer-events: var(--pointer-events1);
+  padding: var(--padding2);
+
+
+}
+
+
+
+.modalDialog-4:target {
+  opacity: var(--opacity2);
+  pointer-events: var(--pointer-events2);
+}
+
+.modalDialog-4 > div {
+
+ 
+  width: var(--width4);
+  position: var(--position2);
+  margin: var(--margin3);
+  padding: var(--padding3);
+  border-radius: var(--border-radius1); 
+  background: var(--background2);
+  background: var(--background3);
+  color: var(--white);
+  position: var(--position4);
+  right: var(--right4);
+  left: var(--left9);
+  top: var(--top5);
+  width: var(--width5);
+  -webkit-border-radius: var(--webkit-border-radius1);
+  -moz-border-radius: var(--moz-border-radius1);
+  border-radius: var(--border-radius2);
+  -moz-box-shadow: var(--moz-box-shadow1);
+  -webkit-box-shadow: var(--webkit-box-shadow1);
+  box-shadow: var(--box-shadow1);
+
+
+}
+
+.close {
+
+
+  background: var(--background4);
+  color: var(--white);
+  left: var(--left10);
+  position: var(--position4);
+  right: var(--right5);
+  text-align: var(--text-align1);
+  top: var(--top6);
+  width: var(--width6);
+  -webkit-border-radius: var(--webkit-border-radius1);
+  -moz-border-radius: var(--moz-border-radius1);
+  border-radius: var(--border-radius2);
+  -moz-box-shadow: var(--moz-box-shadow1);
+  -webkit-box-shadow: var(--webkit-box-shadow1);
+  box-shadow: var(--box-shadow2);
+
+
+}
+
+.close:hover { background: var(--background5); }
+
+
+.modalDialog-5 {
+
+
+  position: var(--position3);
+  font-family: var(--font-family1);
+  top: var(--top4);
+  right: var(--right3);
+  bottom: var(--bottom1);
+  left: var(--left15);
+  z-index: var(--z-index);
+  opacity: var(--opacity1);
+  -webkit-transition: var(--webkit-transition1);
+  -moz-transition: var(--moz-transition1);
+  transition: var(--transition1);
+  pointer-events: var(--pointer-events1);
+  padding: var(--padding2);
+
+
+}
+
+
+
+.modalDialog-5:target {
+  opacity: var(--opacity2);
+  pointer-events: var(--pointer-events2);
+}
+
+.modalDialog-5 > div {
+
+ 
+  width: var(--width4);
+  position: var(--position2);
+  margin: var(--margin3);
+  padding: var(--padding3);
+  border-radius: var(--border-radius1); 
+  background: var(--background2);
+  background: var(--background3);
+  color: var(--white);
+  position: var(--position4);
+  right: var(--right4);
+  left: var(--left9);
+  top: var(--top5);
+  width: var(--width5);
+  -webkit-border-radius: var(--webkit-border-radius1);
+  -moz-border-radius: var(--moz-border-radius1);
+  border-radius: var(--border-radius2);
+  -moz-box-shadow: var(--moz-box-shadow1);
+  -webkit-box-shadow: var(--webkit-box-shadow1);
+  box-shadow: var(--box-shadow1);
+
+
+}
+
+.close {
+
+
+  background: var(--background4);
+  color: var(--white);
+  left: var(--left10);
+  position: var(--position4);
+  right: var(--right5);
+  text-align: var(--text-align1);
+  top: var(--top6);
+  width: var(--width6);
+  -webkit-border-radius: var(--webkit-border-radius1);
+  -moz-border-radius: var(--moz-border-radius1);
+  border-radius: var(--border-radius2);
+  -moz-box-shadow: var(--moz-box-shadow1);
+  -webkit-box-shadow: var(--webkit-box-shadow1);
+  box-shadow: var(--box-shadow2);
+
+
+}
+
+.close:hover { background: var(--background5); }
+
+.modalDialog-6 {
+
+
+  position: var(--position3);
+  font-family: var(--font-family1);
+  top: var(--top4);
+  right: var(--right3);
+  bottom: var(--bottom1);
+  left: var(--left16);
+  z-index: var(--z-index);
+  opacity: var(--opacity1);
+  -webkit-transition: var(--webkit-transition1);
+  -moz-transition: var(--moz-transition1);
+  transition: var(--transition1);
+  pointer-events: var(--pointer-events1);
+  padding: var(--padding2);
+
+
+}
+
+
+
+.modalDialog-6:target {
+  opacity: var(--opacity2);
+  pointer-events: var(--pointer-events2);
+}
+
+.modalDialog-6 > div {
+
+ 
+  width: var(--width4);
+  position: var(--position2);
+  margin: var(--margin3);
+  padding: var(--padding3);
+  border-radius: var(--border-radius1); 
+  background: var(--background2);
+  background: var(--background3);
+  color: var(--white);
+  position: var(--position4);
+  right: var(--right4);
+  left: var(--left9);
+  top: var(--top5);
+  width: var(--width5);
+  -webkit-border-radius: var(--webkit-border-radius1);
+  -moz-border-radius: var(--moz-border-radius1);
+  border-radius: var(--border-radius2);
+  -moz-box-shadow: var(--moz-box-shadow1);
+  -webkit-box-shadow: var(--webkit-box-shadow1);
+  box-shadow: var(--box-shadow1);
+
+
+}
+
+.close {
+
+
+  background: var(--background4);
+  color: var(--white);
+  left: var(--left10);
+  position: var(--position4);
+  right: var(--right5);
+  text-align: var(--text-align1);
+  top: var(--top6);
+  width: var(--width6);
+  -webkit-border-radius: var(--webkit-border-radius1);
+  -moz-border-radius: var(--moz-border-radius1);
+  border-radius: var(--border-radius2);
+  -moz-box-shadow: var(--moz-box-shadow1);
+  -webkit-box-shadow: var(--webkit-box-shadow1);
+  box-shadow: var(--box-shadow2);
+
+
+}
+
+.close:hover { background: var(--background5); }
+
+.modalDialog-7 {
+
+
+  position: var(--position3);
+  font-family: var(--font-family1);
+  top: var(--top4);
+  right: var(--right3);
+  bottom: var(--bottom1);
+  left: var(--left17);
+  z-index: var(--z-index);
+  opacity: var(--opacity1);
+  -webkit-transition: var(--webkit-transition1);
+  -moz-transition: var(--moz-transition1);
+  transition: var(--transition1);
+  pointer-events: var(--pointer-events1);
+  padding: var(--padding2);
+
+
+}
+
+
+
+.modalDialog-7:target {
+  opacity: var(--opacity2);
+  pointer-events: var(--pointer-events2);
+}
+
+.modalDialog-7 > div {
+
+ 
+  width: var(--width4);
+  position: var(--position2);
+  margin: var(--margin3);
+  padding: var(--padding3);
+  border-radius: var(--border-radius1); 
+  background: var(--background2);
+  background: var(--background3);
+  color: var(--white);
+  position: var(--position4);
+  right: var(--right4);
+  left: var(--left9);
+  top: var(--top5);
+  width: var(--width5);
+  -webkit-border-radius: var(--webkit-border-radius1);
+  -moz-border-radius: var(--moz-border-radius1);
+  border-radius: var(--border-radius2);
+  -moz-box-shadow: var(--moz-box-shadow1);
+  -webkit-box-shadow: var(--webkit-box-shadow1);
+  box-shadow: var(--box-shadow1);
+
+
+}
+
+.close {
+
+
+  background: var(--background4);
+  color: var(--white);
+  left: var(--left10);
+  position: var(--position4);
+  right: var(--right5);
+  text-align: var(--text-align1);
+  top: var(--top6);
+  width: var(--width6);
+  -webkit-border-radius: var(--webkit-border-radius1);
+  -moz-border-radius: var(--moz-border-radius1);
+  border-radius: var(--border-radius2);
+  -moz-box-shadow: var(--moz-box-shadow1);
+  -webkit-box-shadow: var(--webkit-box-shadow1);
+  box-shadow: var(--box-shadow2);
+
+
+}
+
+.close:hover { background: var(--background5); }
+
+.modalDialog-8 {
+
+
+  position: var(--position3);
+  font-family: var(--font-family1);
+  top: var(--top4);
+  right: var(--right3);
+  bottom: var(--bottom1);
+  left: var(--left18);
+  z-index: var(--z-index);
+  opacity: var(--opacity1);
+  -webkit-transition: var(--webkit-transition1);
+  -moz-transition: var(--moz-transition1);
+  transition: var(--transition1);
+  pointer-events: var(--pointer-events1);
+  padding: var(--padding2);
+
+
+}
+
+
+
+.modalDialog-8:target {
+  opacity: var(--opacity2);
+  pointer-events: var(--pointer-events2);
+}
+
+.modalDialog-8 > div {
+
+ 
+  width: var(--width4);
+  position: var(--position2);
+  margin: var(--margin3);
+  padding: var(--padding3);
+  border-radius: var(--border-radius1); 
+  background: var(--background2);
+  background: var(--background3);
+  color: var(--white);
+  position: var(--position4);
+  right: var(--right4);
+  left: var(--left9);
+  top: var(--top5);
+  width: var(--width5);
+  -webkit-border-radius: var(--webkit-border-radius1);
+  -moz-border-radius: var(--moz-border-radius1);
+  border-radius: var(--border-radius2);
+  -moz-box-shadow: var(--moz-box-shadow1);
+  -webkit-box-shadow: var(--webkit-box-shadow1);
+  box-shadow: var(--box-shadow1);
+
+
+}
+
+.close {
+
+
+  background: var(--background4);
+  color: var(--white);
+  left: var(--left10);
+  position: var(--position4);
+  right: var(--right5);
+  text-align: var(--text-align1);
+  top: var(--top6);
+  width: var(--width6);
+  -webkit-border-radius: var(--webkit-border-radius1);
+  -moz-border-radius: var(--moz-border-radius1);
+  border-radius: var(--border-radius2);
+  -moz-box-shadow: var(--moz-box-shadow1);
+  -webkit-box-shadow: var(--webkit-box-shadow1);
+  box-shadow: var(--box-shadow2);
+
+
+}
+
+.close:hover { background: var(--background5); }
+
+.modalDialog-9 {
+
+
+  position: var(--position3);
+  font-family: var(--font-family1);
+  top: var(--top4);
+  right: var(--right3);
+  bottom: var(--bottom1);
+  left: var(--left19);
+  z-index: var(--z-index);
+  opacity: var(--opacity1);
+  -webkit-transition: var(--webkit-transition1);
+  -moz-transition: var(--moz-transition1);
+  transition: var(--transition1);
+  pointer-events: var(--pointer-events1);
+  padding: var(--padding2);
+
+
+}
+
+
+
+.modalDialog-9:target {
+  opacity: var(--opacity2);
+  pointer-events: var(--pointer-events2);
+}
+
+.modalDialog-9 > div {
+
+ 
+  width: var(--width4);
+  position: var(--position2);
+  margin: var(--margin3);
+  padding: var(--padding3);
+  border-radius: var(--border-radius1); 
+  background: var(--background2);
+  background: var(--background3);
+  color: var(--white);
+  position: var(--position4);
+  right: var(--right4);
+  left: var(--left9);
+  top: var(--top5);
+  width: var(--width5);
+  -webkit-border-radius: var(--webkit-border-radius1);
+  -moz-border-radius: var(--moz-border-radius1);
+  border-radius: var(--border-radius2);
+  -moz-box-shadow: var(--moz-box-shadow1);
+  -webkit-box-shadow: var(--webkit-box-shadow1);
+  box-shadow: var(--box-shadow1);
+
+
+}
+
+.close {
+
+
+  background: var(--background4);
+  color: var(--white);
+  left: var(--left10);
+  position: var(--position4);
+  right: var(--right5);
+  text-align: var(--text-align1);
+  top: var(--top6);
+  width: var(--width6);
+  -webkit-border-radius: var(--webkit-border-radius1);
+  -moz-border-radius: var(--moz-border-radius1);
+  border-radius: var(--border-radius2);
+  -moz-box-shadow: var(--moz-box-shadow1);
+  -webkit-box-shadow: var(--webkit-box-shadow1);
+  box-shadow: var(--box-shadow2);
+
+
+}
+
+.close:hover { background: var(--background5); }
+
+
+.modalDialog-10 {
+
+
+  position: var(--position3);
+  font-family: var(--font-family1);
+  top: var(--top4);
+  right: var(--right3);
+  bottom: var(--bottom1);
+  left: var(--left19);
+  z-index: var(--z-index);
+  opacity: var(--opacity1);
+  -webkit-transition: var(--webkit-transition1);
+  -moz-transition: var(--moz-transition1);
+  transition: var(--transition1);
+  pointer-events: var(--pointer-events1);
+  padding: var(--padding2);
+
+
+}
+
+
+
+.modalDialog-10:target {
+  opacity: var(--opacity2);
+  pointer-events: var(--pointer-events2);
+}
+
+.modalDialog-10 > div {
+
+ 
+  width: var(--width4);
+  position: var(--position2);
+  margin: var(--margin3);
+  padding: var(--padding3);
+  border-radius: var(--border-radius1); 
+  background: var(--background2);
+  background: var(--background3);
+  color: var(--white);
+  position: var(--position4);
+  right: var(--right4);
+  left: var(--left9);
+  top: var(--top5);
+  width: var(--width5);
+  -webkit-border-radius: var(--webkit-border-radius1);
+  -moz-border-radius: var(--moz-border-radius1);
+  border-radius: var(--border-radius2);
+  -moz-box-shadow: var(--moz-box-shadow1);
+  -webkit-box-shadow: var(--webkit-box-shadow1);
+  box-shadow: var(--box-shadow1);
+
+
+}
+
+.close {
+
+
+  background: var(--background4);
+  color: var(--white);
+  left: var(--left10);
+  position: var(--position4);
+  right: var(--right5);
+  text-align: var(--text-align1);
+  top: var(--top6);
+  width: var(--width6);
+  -webkit-border-radius: var(--webkit-border-radius1);
+  -moz-border-radius: var(--moz-border-radius1);
+  border-radius: var(--border-radius2);
+  -moz-box-shadow: var(--moz-box-shadow1);
+  -webkit-box-shadow: var(--webkit-box-shadow1);
+  box-shadow: var(--box-shadow2);
+
+
+}
+
+.close:hover { background: var(--background5); }
+
+
+
 #divModal1{
+  
+  position: var(--position2); 
+  width:var(--width2); 
+  height: var(--height2); 
+  right:var(--right1);
+  left: var(--left5); 
+
+}
+
+#divModal2{
+  
+  position: var(--position2); 
+  width:var(--width2); 
+  height: var(--height2); 
+  right:var(--right1);
+  left: var(--left5); 
+  
+
+  
+
+}
+
+#divModal3{
+  
+  position: var(--position2); 
+  width:var(--width2); 
+  height: var(--height2); 
+  right:var(--right1);
+  left: var(--left5); 
+  
+
+  
+
+}
+
+#divModal4{
+  
+  position: var(--position2); 
+  width:var(--width2); 
+  height: var(--height2); 
+  right:var(--right1);
+  left: var(--left5); 
+  
+
+  
+
+}
+
+#divModal5{
+  
+  position: var(--position2); 
+  width:var(--width2); 
+  height: var(--height2); 
+  right:var(--right1);
+  left: var(--left5); 
+  
+
+  
+
+}
+
+#divModal6{
+  
+  position: var(--position2); 
+  width:var(--width2); 
+  height: var(--height2); 
+  right:var(--right1);
+  left: var(--left5); 
+  
+
+  
+
+}
+
+#divModal7{
+  
+  position: var(--position2); 
+  width:var(--width2); 
+  height: var(--height2); 
+  right:var(--right1);
+  left: var(--left5); 
+  
+
+  
+
+}
+
+#divModal8{
   
   position: var(--position2); 
   width:var(--width2); 
@@ -457,8 +1189,31 @@ body {
 }
 
 
+#divModal9{
+  
+  position: var(--position2); 
+  width:var(--width2); 
+  height: var(--height2); 
+  right:var(--right1);
+  left: var(--left5); 
+  
 
+  
 
+}
+
+#divModal10{
+  
+  position: var(--position2); 
+  width:var(--width2); 
+  height: var(--height2); 
+  right:var(--right1);
+  left: var(--left5); 
+  
+
+  
+
+}
 
 
 
