@@ -71,16 +71,16 @@
     --left8: 30px;
     --left9: 650px;
     --left10: 470px;
-    --left11: 195px;
+    --left11: 50px;
     --left12:50px;
-    --left13:320px;
-    --left14:450px;
-    --left15:584px;
-    --left16:700px;
-    --left17:824px;
-    --left18:684px;
-    --left19:800px;
-    --left20:820px;
+    --left13:120px;
+    --left14:260px;
+    --left15:380px;
+    --left16:520px;
+    --left17:640px;
+    --left18:760px;
+    --left19:820px;
+    
 
 
     --align-items1: middle;
@@ -177,6 +177,8 @@ body {
   border-color: var(--yellow);
 
 }
+
+
 
 #botaoSelecionado1{
   

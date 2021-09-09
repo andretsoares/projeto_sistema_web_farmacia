@@ -1,3 +1,5 @@
+
+
 function selecionar(qualBotao){
 
           switch (qualBotao) {
@@ -172,3 +174,23 @@ function selecionar(qualBotao){
 
 
       }
+
+
+
+	  function selecionar2(){
+
+		
+			 
+		document.getElementById("botaoSelecionado1").src = "icone-cadastros.png"
+		document.getElementById("botaoSelecionado2").src = "icone-financeiro.png"  	
+		document.getElementById("botaoSelecionado3").src = "icone-estoque.png"	
+		document.getElementById("botaoSelecionado4").src = "icone-graficos.png"	
+		document.getElementById("botaoSelecionado5").src = "icone-relatorios.png"  	
+		document.getElementById("botaoSelecionado6").src = "icone-vendas.png"	
+		document.getElementById("botaoSelecionado7").src = "icone-configuracoes.png"	
+		document.getElementById("botaoSelecionado8").src = "icone-suporte.png"  	
+		document.getElementById("botaoSelecionado9").src = "icone-ferramentas.png"	
+		document.getElementById("botaoSelecionado10").src = "icone-sair.png"	
+			
+
+	  }
