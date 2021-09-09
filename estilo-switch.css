@@ -26,10 +26,6 @@
     
     --repeat: no-repeat;
 
-
-    
-
-
     --top1:70px;
     --top2:20px;
     --top4: 150px;
@@ -117,7 +113,7 @@
 
     
     --font-family1: Arial, Helvetica, sans-serif;
-    
+    --font-family2: georgia;
     
     --bottom1: 390px;
     
@@ -132,6 +128,9 @@
     
   }
   
+  
+
+
   .flex-container {
     
     display: var(--display1);
@@ -144,7 +143,7 @@
  
   .flex-container > button {
     background-color: var(--color2);
-    color: var(--color3);
+    color: var(--color1);
     width: var(--width1);
     height: var(--height1);
     margin: var(--margin1);
@@ -153,6 +152,8 @@
     
   }
  
+  
+
  .position{
 
     background-repeat: var(--repeat);
@@ -167,7 +168,7 @@ body {
 	
     background:var(--color2);
     margin:var(--margin2);
-    background-image: var(--background);
+    /*background-image: var(--background1);*/
     
    
 
@@ -229,6 +230,15 @@ body {
   
   padding:var(--padding1);
 }   
+
+.font {
+
+  color:var(--blue);
+  font-family: var(--font-family2);
+
+
+}
+
 
 .titulo_cadastro{
   
@@ -1096,7 +1106,7 @@ body {
   height: var(--height2); 
   right:var(--right1);
   left: var(--left5); 
-
+  
 }
 
 #divModal2{
