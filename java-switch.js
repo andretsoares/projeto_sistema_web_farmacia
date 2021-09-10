@@ -1,10 +1,14 @@
 
 
-function selecionar(qualBotao){
 
-          switch (qualBotao) {
 
-              case 'cadastros':
+/*
+              
+				function selecionar(qualBotao){
+
+          		switch (qualBotao) {
+
+              	case 'cadastros':
                
                document.getElementById("botaoSelecionado1").src = "icone-cadastros2.png"
 			   document.getElementById("botaoSelecionado2").src = "icone-financeiro.png"  	
@@ -17,10 +21,13 @@ function selecionar(qualBotao){
 			   document.getElementById("botaoSelecionado9").src = "icone-ferramentas.png"	
 			   document.getElementById("botaoSelecionado10").src = "icone-sair.png"	
 
+			   
+
+			  
 			  
               break;
 
-              case 'financeiro':
+				case 'financeiro':
                
              
                document.getElementById("botaoSelecionado1").src = "icone-cadastros.png"
@@ -161,7 +168,7 @@ function selecionar(qualBotao){
 			   document.getElementById("botaoSelecionado10").src = "icone-sair2.png"	
 				  	
              
-			 break;
+			 break; 
 			 
               default:
                
@@ -192,5 +199,260 @@ function selecionar(qualBotao){
 		document.getElementById("botaoSelecionado9").src = "icone-ferramentas.png"	
 		document.getElementById("botaoSelecionado10").src = "icone-sair.png"	
 			
+
+	  }
+
+
+	  */
+
+
+	  function selecionar3(qualBotao3){
+
+		switch (qualBotao3) {
+
+			case 'adicionar_user':
+			 
+			 document.getElementById("botaoSelecionado11").src = "adicionarH2.png"
+			 document.getElementById("botaoSelecionado12").src = "vendedorH.png"  	
+			 document.getElementById("botaoSelecionado13").src = "grupo.png"	
+			 document.getElementById("botaoSelecionado14").src = "retirarH.png"	
+			 document.getElementById("botaoSelecionado15").src = "retirar-vendedorH.png"  	
+			 document.getElementById("botaoSelecionado16").src = "procurarH.png"	
+	  
+
+			 
+
+			
+			
+			break;
+
+			case 'adicionar_vendedor':
+			 
+			 document.getElementById("botaoSelecionado11").src = "adicionarH.png"
+			 document.getElementById("botaoSelecionado12").src = "vendedorH2.png"  	
+			 document.getElementById("botaoSelecionado13").src = "grupo.png"	
+			 document.getElementById("botaoSelecionado14").src = "retirarH.png"	
+			 document.getElementById("botaoSelecionado15").src = "retirar-vendedorH.png"  	
+			 document.getElementById("botaoSelecionado16").src = "procurarH.png"	
+	  
+
+			 
+
+			
+			
+			break;
+
+			case 'adicionar_grupo':
+			 
+			 document.getElementById("botaoSelecionado11").src = "adicionarH.png"
+			 document.getElementById("botaoSelecionado12").src = "vendedorH.png"  	
+			 document.getElementById("botaoSelecionado13").src = "grupo2.png"	
+			 document.getElementById("botaoSelecionado14").src = "retirarH.png"	
+			 document.getElementById("botaoSelecionado15").src = "retirar-vendedorH.png"  	
+			 document.getElementById("botaoSelecionado16").src = "procurarH.png"	
+	  
+
+			 
+
+			
+			
+			break;
+
+			case 'retirar_user':
+			 
+			 document.getElementById("botaoSelecionado11").src = "adicionarH.png"
+			 document.getElementById("botaoSelecionado12").src = "vendedorH.png"  	
+			 document.getElementById("botaoSelecionado13").src = "grupo.png"	
+			 document.getElementById("botaoSelecionado14").src = "retirarH2.png"	
+			 document.getElementById("botaoSelecionado15").src = "retirar-vendedorH.png"  	
+			 document.getElementById("botaoSelecionado16").src = "procurarH.png"	
+	  
+
+			 
+
+			
+			
+			break;
+
+			case 'retirar_vendedor':
+			 
+			 document.getElementById("botaoSelecionado11").src = "adicionarH.png"
+			 document.getElementById("botaoSelecionado12").src = "vendedorH.png"  	
+			 document.getElementById("botaoSelecionado13").src = "grupo.png"	
+			 document.getElementById("botaoSelecionado14").src = "retirarH.png"	
+			 document.getElementById("botaoSelecionado15").src = "retirar-vendedorH2.png"  	
+			 document.getElementById("botaoSelecionado16").src = "procurarH.png"	
+	  
+
+			 
+
+			
+			
+			break;
+
+			case 'retirar-vendedorH':
+			 
+			 document.getElementById("botaoSelecionado11").src = "adicionarH.png"
+			 document.getElementById("botaoSelecionado12").src = "vendedorH.png"  	
+			 document.getElementById("botaoSelecionado13").src = "grupo.png"	
+			 document.getElementById("botaoSelecionado14").src = "retirarH.png"	
+			 document.getElementById("botaoSelecionado15").src = "retirar-vendedorH2.png"  	
+			 document.getElementById("botaoSelecionado16").src = "procurarH.png"	
+	  
+
+			 
+
+			
+			
+			break;
+
+			case 'procurarH':
+			 
+			 document.getElementById("botaoSelecionado11").src = "adicionarH.png"
+			 document.getElementById("botaoSelecionado12").src = "vendedorH.png"  	
+			 document.getElementById("botaoSelecionado13").src = "grupo.png"	
+			 document.getElementById("botaoSelecionado14").src = "retirarH.png"	
+			 document.getElementById("botaoSelecionado15").src = "retirar-vendedorH.png"  	
+			 document.getElementById("botaoSelecionado16").src = "procurarH2.png"	
+	  
+
+			 
+
+			
+			
+			break;
+
+			default:
+
+
+			break;
+
+		}
+
+	  }
+
+
+	  function selecionar4(qualBotao4){
+
+		switch (qualBotao4) {
+
+			case 'adicionar_user':
+			 
+			 document.getElementById("botaoSelecionado11").src = "adicionarH2.png"
+			 document.getElementById("botaoSelecionado12").src = "vendedorH.png"  	
+			 document.getElementById("botaoSelecionado13").src = "grupo.png"	
+			 document.getElementById("botaoSelecionado14").src = "retirarH.png"	
+			 document.getElementById("botaoSelecionado15").src = "retirar-vendedorH.png"  	
+			 document.getElementById("botaoSelecionado16").src = "procurarH.png"	
+	  
+
+			 
+
+			
+			
+			break;
+
+			case 'adicionar_vendedor':
+			 
+			 document.getElementById("botaoSelecionado11").src = "adicionarH.png"
+			 document.getElementById("botaoSelecionado12").src = "vendedorH2.png"  	
+			 document.getElementById("botaoSelecionado13").src = "grupo.png"	
+			 document.getElementById("botaoSelecionado14").src = "retirarH.png"	
+			 document.getElementById("botaoSelecionado15").src = "retirar-vendedorH.png"  	
+			 document.getElementById("botaoSelecionado16").src = "procurarH.png"	
+	  
+
+			 
+
+			
+			
+			break;
+
+			case 'adicionar_grupo':
+			 
+			 document.getElementById("botaoSelecionado11").src = "adicionarH.png"
+			 document.getElementById("botaoSelecionado12").src = "vendedorH.png"  	
+			 document.getElementById("botaoSelecionado13").src = "grupo2.png"	
+			 document.getElementById("botaoSelecionado14").src = "retirarH.png"	
+			 document.getElementById("botaoSelecionado15").src = "retirar-vendedorH.png"  	
+			 document.getElementById("botaoSelecionado16").src = "procurarH.png"	
+	  
+
+			 
+
+			
+			
+			break;
+
+			case 'retirar_user':
+			 
+			 document.getElementById("botaoSelecionado11").src = "adicionarH.png"
+			 document.getElementById("botaoSelecionado12").src = "vendedorH.png"  	
+			 document.getElementById("botaoSelecionado13").src = "grupo.png"	
+			 document.getElementById("botaoSelecionado14").src = "retirarH2.png"	
+			 document.getElementById("botaoSelecionado15").src = "retirar-vendedorH.png"  	
+			 document.getElementById("botaoSelecionado16").src = "procurarH.png"	
+	  
+
+			 
+
+			
+			
+			break;
+
+			case 'retirar_vendedor':
+			 
+			 document.getElementById("botaoSelecionado11").src = "adicionarH.png"
+			 document.getElementById("botaoSelecionado12").src = "vendedorH.png"  	
+			 document.getElementById("botaoSelecionado13").src = "grupo.png"	
+			 document.getElementById("botaoSelecionado14").src = "retirarH.png"	
+			 document.getElementById("botaoSelecionado15").src = "retirar-vendedorH2.png"  	
+			 document.getElementById("botaoSelecionado16").src = "procurarH.png"	
+	  
+
+			 
+
+			
+			
+			break;
+
+			case 'retirar-vendedorH':
+			 
+			 document.getElementById("botaoSelecionado11").src = "adicionarH.png"
+			 document.getElementById("botaoSelecionado12").src = "vendedorH.png"  	
+			 document.getElementById("botaoSelecionado13").src = "grupo.png"	
+			 document.getElementById("botaoSelecionado14").src = "retirarH.png"	
+			 document.getElementById("botaoSelecionado15").src = "retirar-vendedorH2.png"  	
+			 document.getElementById("botaoSelecionado16").src = "procurarH.png"	
+	  
+
+			 
+
+			
+			
+			break;
+
+			case 'procurarH':
+			 
+			 document.getElementById("botaoSelecionado11").src = "adicionarH.png"
+			 document.getElementById("botaoSelecionado12").src = "vendedorH.png"  	
+			 document.getElementById("botaoSelecionado13").src = "grupo.png"	
+			 document.getElementById("botaoSelecionado14").src = "retirarH.png"	
+			 document.getElementById("botaoSelecionado15").src = "retirar-vendedorH.png"  	
+			 document.getElementById("botaoSelecionado16").src = "procurarH2.png"	
+	  
+
+			 
+
+			
+			
+			break;
+
+			default:
+
+
+			break;
+
+		}
 
 	  }
